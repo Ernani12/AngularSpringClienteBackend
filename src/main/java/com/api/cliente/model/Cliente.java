@@ -1,6 +1,6 @@
 
 
-package com.api.produtos.model;
+package com.api.cliente.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,18 +14,19 @@ import lombok.Setter;
 // entidade e tablea gerada
 @Entity
 
-@Table(name = "produtos")
+@Table(name = "cliente")
 
 //lombok generate setters and getters abstract
 @Getter
 @Setter
 
-public class Produto {
+public class Cliente {
 
     @Id // gerar id automatico com auto incremento
     @GeneratedValue(strategy= GenerationType.IDENTITY)
      private Long codigo;
      private String nome;
-     private String marca;
+     private String cnpj;
+     private String endereco;
     
 }
