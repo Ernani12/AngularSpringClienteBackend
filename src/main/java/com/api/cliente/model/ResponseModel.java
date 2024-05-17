@@ -1,5 +1,5 @@
 
-package com.api.produtos.model;
+package com.api.cliente.model;
 
 import org.springframework.stereotype.Component;
 
