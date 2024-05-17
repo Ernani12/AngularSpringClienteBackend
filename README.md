@@ -5,7 +5,7 @@ Postgres
 
 API de Spring Java consumida por uma
 aplicaçao Angular  de cliente
-Using Postgres as Database
+Using mysql as Database
 
 
 =======
