@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 @CrossOrigin(origins = "http://localhost:5173")
 public class ClienteController {
 
-    @Autowired
+    @Autowired 
     private ClienteService S;
 
 
