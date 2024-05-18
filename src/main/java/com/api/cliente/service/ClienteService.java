@@ -26,11 +26,7 @@ public class ClienteService {
 
     public ResponseEntity<?> cadastrar(Cliente p){
 
-        if(p.getCodigo()==null){
-            RM.setMessage("Codigo é obrigatorio");
-            return new ResponseEntity<ResponseModel>(RM, HttpStatus.BAD_REQUEST);
-        }
-        else if(p.getNome().equals("")){
+        if(p.getNome().equals("")){
             RM.setMessage("Nome é Obrigatoria");
             return new ResponseEntity<ResponseModel>(RM, HttpStatus.BAD_REQUEST);
         }
@@ -45,11 +41,7 @@ public class ClienteService {
 
     public ResponseEntity<?> Alterar(Cliente p){
 
-        if(p.getCodigo()==null){
-            RM.setMessage("Codigo é obrigatorio");
-            return new ResponseEntity<ResponseModel>(RM, HttpStatus.BAD_REQUEST);
-        }
-        else if(p.getNome().equals("")){
+       if(p.getNome().equals("")){
             RM.setMessage("Nome é Obrigatoria");
             return new ResponseEntity<ResponseModel>(RM, HttpStatus.BAD_REQUEST);
         }
@@ -63,7 +55,7 @@ public class ClienteService {
     }
 
 
-    public ResponseEntity<ResponseModel> remover (long codigo){
+    public ResponseEntity<ResponseModel> remover (Long codigo){
        pr.deleteById(codigo);
 
        RM.setMessage("produto removido");

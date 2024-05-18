@@ -7,6 +7,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -19,14 +20,15 @@ import lombok.Setter;
 //lombok generate setters and getters abstract
 @Getter
 @Setter
-
 public class Cliente {
 
+   
     @Id // gerar id automatico com auto incremento
     @GeneratedValue(strategy= GenerationType.IDENTITY)
      private Long codigo;
      private String nome;
      private String cnpj;
      private String endereco;
+  
     
 }
