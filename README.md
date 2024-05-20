@@ -14,3 +14,8 @@ Spring Boot
 Docker
 Documentos Requisitos
 Teste SonarQUBE Junit
+
+
+OBS- para rrun baste executar na pasta
+
+mvn spring-boot:run
