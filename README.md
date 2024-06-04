@@ -1,7 +1,4 @@
 
-
-
-=======
 # AngularSpringClienteBackend da Aplicacao Maxima Tech
 Backend de aplicaçao de cliente para puxar dados de localidade
 
