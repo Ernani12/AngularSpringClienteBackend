@@ -13,7 +13,8 @@ public class ClienteApplication  {
 
 	public static void main(String[] args) throws IOException {
 		SpringApplication.run(ClienteApplication.class, args);
-		openHomePage();
+		//openHomePage();
+		System.out.println("running!");
 	}
 
 	private static void openHomePage() throws IOException {
