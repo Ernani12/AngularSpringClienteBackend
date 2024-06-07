@@ -5,8 +5,6 @@ import java.io.IOException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.api.cliente.model.Cliente;
-
 
 
 @SpringBootApplication
@@ -15,7 +13,8 @@ public class ClienteApplication  {
 
 	public static void main(String[] args) throws IOException {
 		SpringApplication.run(ClienteApplication.class, args);
-		openHomePage();
+		//openHomePage();
+		System.out.println("running!");
 	}
 
 	private static void openHomePage() throws IOException {
