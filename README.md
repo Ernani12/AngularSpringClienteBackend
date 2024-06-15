@@ -1,13 +1,22 @@
 
 Java 17
+
 Marven 
+
 Lombok
+
 JPA
+
 Rest API
+
 Spring Boot
+
 Docker
+
 Documentos Requisitos
+
 Teste SonarQUBE 
+
 Junit
 
 
